@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/func"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/func"
+        android:text="Add-ons" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/yhlogo" />
+
+    <Button
+        android:id="@+id/func"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="40dp"
+        android:text="Function" />
+
+</RelativeLayout>
